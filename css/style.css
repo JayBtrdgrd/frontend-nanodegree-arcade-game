@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f4c6;
+    background-image: url('/Users/jeanbai/Documents/FEND/frontend-nanodegree-arcade-game-master/images/background_scene.gif');
+}
+
+h1 {
+	color: white;
+	font-size: 300%;
+	margin-top: 60px;
+	margin-bottom: -10px;
+}
