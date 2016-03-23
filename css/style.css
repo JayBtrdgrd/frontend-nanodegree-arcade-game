@@ -3,7 +3,7 @@ body {
 
     font-family: 'Open Sans', sans-serif;
     background-color: #f7f4c6;
-    background-image: url('/Users/jeanbai/Documents/FEND/frontend-nanodegree-arcade-game-master/images/background_scene.gif');
+    background-image: url('https://github.com/JayBtrdgrd/frontend-nanodegree-arcade-game/blob/gh-pages/images/background_scene.gif');
 }
 
 h1 {
