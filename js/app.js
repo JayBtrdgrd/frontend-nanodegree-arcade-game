@@ -12,7 +12,7 @@ var Barrier = function(startingX, startingY, width, height, level, image) {
 };
 
 //Class for gems and other things to be collected
-var Item = function(startingX, startingY, width, height, points, lives, level, image, messageOne, messageTwo, messageThree, messageFour, messageFive, messageSix) {
+var Item = function(startingX, startingY, width, height, points, lives, level, image) {
     this.left = startingX;
     this.top = startingY;
     this.right = startingX + width;
@@ -31,12 +31,6 @@ var Item = function(startingX, startingY, width, height, points, lives, level, i
     this.basePoints = points;
     this.baseLives = lives;
     this.up = true;
-    this.messageLineOne = messageOne;
-    this.messageLineTwo = messageTwo;
-    this.messageLineThree = messageThree;
-    this.messageLineFour = messageFour;
-    this.messageLineFive = messageFive;
-    this.messageLineSix = messageSix;
     this.finishedShowingReward = false;
 };
 
@@ -790,7 +784,7 @@ var allItems = [];
 var gem = new Item(73, 92, 101, 83, 500, 0, 2, 'images/gem-glowing.png');
 var gemTwo = new Item(376, 95, 101, 83, 500, 0, 3, 'images/gem-glowing.png');
 
-var bottle = new Item(5, 380, 73, 80, 500, 0, 4, 'images/message-in-bottle-03.png', 'Good job for', 'coming this far!', 'Now swim past', 'the sharks to get', 'to the bottom of', 'the sea.');
+var bottle = new Item(5, 380, 73, 80, 500, 0, 4, 'images/message-in-bottle-03.png');
 
 var heart = new Item(305, 175, 80, 80, 0, 1, 2, 'images/Heart-smaller.png');
 

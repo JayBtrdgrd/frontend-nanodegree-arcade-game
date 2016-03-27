@@ -468,50 +468,18 @@ var Engine = (function(global) {
             specialAnimationFrameCount++;
             if (specialAnimationFrameCount >= 210) {
                 ctx.globalAlpha = 0.25;
-                ctx.drawImage(Resources.get('images/scroll.png'),bottle.originalX + 100, bottle.originalY - 80);
-                ctx.fillStyle = '#3d2a18';
-                ctx.font = '16pt Goudy Old Style';
-                ctx.fillText(bottle.messageLineOne, bottle.originalX + 128, bottle.originalY - 30);
-                ctx.fillText(bottle.messageLineTwo, bottle.originalX + 128, bottle.originalY - 8);
-                ctx.fillText(bottle.messageLineThree, bottle.originalX + 128, bottle.originalY + 14);
-                ctx.fillText(bottle.messageLineFour, bottle.originalX + 128, bottle.originalY + 36);
-                ctx.fillText(bottle.messageLineFive, bottle.originalX + 128, bottle.originalY + 58);
-                ctx.fillText(bottle.messageLineSix, bottle.originalX + 128, bottle.originalY + 80);
+                ctx.drawImage(Resources.get('images/scroll_with_text.png'),bottle.originalX + 100, bottle.originalY - 80);
                 ctx.globalAlpha = 1;
             } else if (specialAnimationFrameCount >= 205) {
                 ctx.globalAlpha = 0.5;
-                ctx.drawImage(Resources.get('images/scroll.png'),bottle.originalX + 100, bottle.originalY - 80);
-                ctx.fillStyle = '#3d2a18';
-                ctx.font = '16pt Goudy Old Style';
-                ctx.fillText(bottle.messageLineOne, bottle.originalX + 128, bottle.originalY - 30);
-                ctx.fillText(bottle.messageLineTwo, bottle.originalX + 128, bottle.originalY - 8);
-                ctx.fillText(bottle.messageLineThree, bottle.originalX + 128, bottle.originalY + 14);
-                ctx.fillText(bottle.messageLineFour, bottle.originalX + 128, bottle.originalY + 36);
-                ctx.fillText(bottle.messageLineFive, bottle.originalX + 128, bottle.originalY + 58);
-                ctx.fillText(bottle.messageLineSix, bottle.originalX + 128, bottle.originalY + 80);
+                ctx.drawImage(Resources.get('images/scroll_with_text.png'),bottle.originalX + 100, bottle.originalY - 80);
                 ctx.globalAlpha = 1;
             } else if (specialAnimationFrameCount >= 200) {
                 ctx.globalAlpha = 0.75;
-                ctx.drawImage(Resources.get('images/scroll.png'),bottle.originalX + 100, bottle.originalY - 80);
-                ctx.fillStyle = '#3d2a18';
-                ctx.font = '16pt Goudy Old Style';
-                ctx.fillText(bottle.messageLineOne, bottle.originalX + 128, bottle.originalY - 30);
-                ctx.fillText(bottle.messageLineTwo, bottle.originalX + 128, bottle.originalY - 8);
-                ctx.fillText(bottle.messageLineThree, bottle.originalX + 128, bottle.originalY + 14);
-                ctx.fillText(bottle.messageLineFour, bottle.originalX + 128, bottle.originalY + 36);
-                ctx.fillText(bottle.messageLineFive, bottle.originalX + 128, bottle.originalY + 58);
-                ctx.fillText(bottle.messageLineSix, bottle.originalX + 128, bottle.originalY + 80);
+                ctx.drawImage(Resources.get('images/scroll_with_text.png'),bottle.originalX + 100, bottle.originalY - 80);
                 ctx.globalAlpha = 1;
             } else if (specialAnimationFrameCount >= 9) {
-                ctx.drawImage(Resources.get('images/scroll.png'),bottle.originalX + 100, bottle.originalY - 80);
-                ctx.fillStyle = '#3d2a18';
-                ctx.font = '16pt Goudy Old Style';
-                ctx.fillText(bottle.messageLineOne, bottle.originalX + 128, bottle.originalY - 30);
-                ctx.fillText(bottle.messageLineTwo, bottle.originalX + 128, bottle.originalY - 8);
-                ctx.fillText(bottle.messageLineThree, bottle.originalX + 128, bottle.originalY + 14);
-                ctx.fillText(bottle.messageLineFour, bottle.originalX + 128, bottle.originalY + 36);
-                ctx.fillText(bottle.messageLineFive, bottle.originalX + 128, bottle.originalY + 58);
-                ctx.fillText(bottle.messageLineSix, bottle.originalX + 128, bottle.originalY + 80);
+                ctx.drawImage(Resources.get('images/scroll_with_text.png'),bottle.originalX + 100, bottle.originalY - 80);
             }
         }
         // Render points or life gained at the time of item collection
@@ -759,7 +727,7 @@ var Engine = (function(global) {
         'images/Tree Short.png',
         'images/underwater-scene-02.jpg',
         'images/message-in-bottle-03.png',
-        'images/scroll.png',
+        'images/scroll_with_text.png',
         'images/bubble-07.png',
         'images/octopus-03.png',
         'images/L5-3-dots.png',
