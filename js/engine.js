@@ -425,7 +425,7 @@ var Engine = (function(global) {
         }
         ctx.font = '23pt Arial';
         ctx.strokeStyle = 'black';
-        ctx.lineWidth = 5;
+        ctx.lineWidth = 3;
         ctx.strokeText('Lvl: ' + player.level, 400, 100);
         ctx.fillStyle = 'yellow';
         ctx.fillText('Lvl: ' + player.level, 400, 100);
