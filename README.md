@@ -30,4 +30,4 @@ To restart the game, press Enter.
 
 Good luck!
 
-Credit: Shout out to NathanM, another Udacity student, whose idea of a floating player inspired my 'Floating on Water' level (Level 4).# JayBtrdgrd.github.io
+Credit: Shout out to NathanM, another Udacity student, whose idea of a floating player inspired my 'Floating on Water' level (Level 4).# http://JayBtrdgrd.github.io/frontend-nanodegree-arcade-game/
